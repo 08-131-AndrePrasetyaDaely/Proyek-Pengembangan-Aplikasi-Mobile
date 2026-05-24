@@ -24,8 +24,5 @@ jobs:
       with:
         gradle-version: 8.10.2
 
-    - name: Build with Gradle
-      run: gradle :composeApp:assembleDebug --stacktrace
-
-    - name: Run Tests
-      run: gradle :composeApp:testDebugUnitTest
+    - name: Build and Test
+      run: gradle :composeApp:assembleDebug :composeApp:testDebugUnitTest --stacktrace
