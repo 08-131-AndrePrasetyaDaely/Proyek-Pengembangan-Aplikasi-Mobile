@@ -98,9 +98,12 @@ composeApp/src/
 - [x] Modifikasi tema/warna
 
 ### Sprint 2: Core Features
-- [x] Tambahkan field baru (Judul Lagu & Artis)
-- [x] Implementasi fitur kategori/tags
-- [x] Tambahkan validasi input
+- [x] Minimal 3 working screens (Home, Detail, Add/Edit)
+- [x] Navigation between screens dengan arguments
+- [x] Data layer dengan Repository pattern
+- [x] Local storage menggunakan SQLDelight
+- [x] Basic CRUD operations working (Create, Read, Update, Delete)
+- [x] UI States (Loading, Success, Error) implemented
 
 ### Sprint 3: Advanced Features
 - [ ] Implementasi search dengan debounce
