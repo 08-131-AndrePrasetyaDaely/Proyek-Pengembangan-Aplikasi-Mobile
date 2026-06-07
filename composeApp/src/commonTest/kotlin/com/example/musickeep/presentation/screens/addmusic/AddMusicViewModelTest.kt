@@ -57,12 +57,25 @@ class AddMusicViewModelTest {
         val viewModel = AddMusicViewModel(repository)
         viewModel.onTitleChange("Song")
         viewModel.onArtistChange("Artist")
-        viewModel.onGenreChange("Pop")
+        viewModel.onGenreSelect("Pop")
         
         val state = viewModel.uiState.value
         assertEquals("Song", state.title)
         assertEquals("Artist", state.artist)
         assertEquals("Pop", state.genre)
+    }
+
+    @Test
+    fun `selecting Lainnya should enable custom genre`() {
+        val viewModel = AddMusicViewModel(repository)
+        viewModel.onGenreSelect("Lainnya")
+        
+        val state = viewModel.uiState.value
+        assertEquals(true, state.isCustomGenre)
+        assertEquals("", state.genre)
+        
+        viewModel.onCustomGenreChange("Indie")
+        assertEquals("Indie", viewModel.uiState.value.genre)
     }
 
     @Test
