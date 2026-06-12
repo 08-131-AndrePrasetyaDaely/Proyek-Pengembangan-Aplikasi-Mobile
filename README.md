@@ -46,7 +46,7 @@ Aplikasi ini menggunakan **Clean Architecture** yang memisahkan kode menjadi tig
 
 | [Daftar Katalog] | [Tambah Lagu] | [Statistik & Pengaturan] |
 | :---: | :---: | :---: |
-| <img src="screenshots/Home.png" width="250"> | <img src="screenshots/add_music.png" width="250"> | <img src="screenshots/Settings.png" width="250"> |
+| <img src="screenshots/Home.png" width="250"> | <img src="screenshots/add_musik.png" width="250"> | <img src="screenshots/Settings.png" width="250"> |
 
 ---
 *Dikembangkan untuk Tugas Besar Mata Kuliah Pengembangan Aplikasi Mobile - ITERA*
