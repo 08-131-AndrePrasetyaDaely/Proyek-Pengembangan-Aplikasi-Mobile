@@ -1,9 +1,11 @@
 # 🎵 MusicKeep
 
+
+
 ![CI](https://github.com/08-131-AndrePrasetyaDaely/Proyek-Pengembangan-Aplikasi-Mobile/actions/workflows/ci.yml/badge.svg)
 
 ## 👤 Team
-- Andre Prasetya Daely - [@andree050505](https://github.com/08-131-AndrePrasetyaDaely) - Lead Developer
+- **Andre Prasetya Daely** (123140131) - [@andree050505](https://github.com/08-131-AndrePrasetyaDaely) 
 
 ## 📄 Description
 MusicKeep adalah aplikasi katalog musik pribadi yang dirancang untuk membantu pengguna mengelola daftar lagu favorit mereka secara terorganisir. Aplikasi ini berfokus pada kemudahan input data musik dan penyajian informasi statistik koleksi secara offline, memberikan pengalaman pengguna yang mulus dalam mendokumentasikan perjalanan musik mereka.
@@ -36,13 +38,14 @@ Aplikasi ini menggunakan **Clean Architecture** yang memisahkan kode menjadi tig
 4. Hubungkan emulator atau device Android.
 5. Klik tombol **Run 'composeApp'**.
 
-## 📦 Download
-[Link to APK - To be updated after Release Build]
+## 🎬 Video Demo
+[▶️ Tonton Video Demo MusicKeep](https://youtu.be/OIdjdCJ_aQM)
+
 
 ## 📸 Screenshots
 [Daftar Katalog] | [Tambah Lagu] | [Statistik & Pengaturan]
 :---:|:---:|:---:
-![Home Screen](https://via.placeholder.com/200x400) | ![Add Music](https://via.placeholder.com/200x400) | ![Settings](https://via.placeholder.com/200x400)
+![Home Screen](screenshots/Home.png) | ![Add Music](screenshots/add_music.png) | ![Settings](screenshots/Settings.png)
 
 ---
 *Dikembangkan untuk Tugas Besar Mata Kuliah Pengembangan Aplikasi Mobile - ITERA*
