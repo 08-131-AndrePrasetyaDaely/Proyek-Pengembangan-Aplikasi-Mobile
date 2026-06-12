@@ -41,6 +41,9 @@ Aplikasi ini menggunakan **Clean Architecture** yang memisahkan kode menjadi tig
 ## 🎬 Video Demo
 [▶️ Tonton Video Demo MusicKeep](https://youtu.be/OIdjdCJ_aQM)
 
+## 📦 Download APK
+[⬇️ Download MusicKeep v1.0.0](https://github.com/08-131-AndrePrasetyaDaely/Proyek-Pengembangan-Aplikasi-Mobile/releases/latest)
+
 
 ## 📸 Screenshots
 
